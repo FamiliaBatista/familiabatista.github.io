@@ -15,6 +15,11 @@ function fadeIn(element, callback)
     tick();
 }
 
+function open(url)
+{
+    window.location = url;
+}
+
 function plusSlides(n)
 {
     showSlides(slideIndex += n);
