@@ -13,6 +13,7 @@
 body {
     /* background-image: linear-gradient(var(--background), var(--background-2), var(--background)); */
     background-color: var(--background);
+    margin: 0px;
 }
 
 h1 {
@@ -111,6 +112,7 @@ span {
     align-items: center;
     justify-content: right;
     width: 100%;
+    margin-right: 20px;
 }
 
 .nav-button {
@@ -128,21 +130,25 @@ span {
     aspect-ratio: 1;
 }
 
-
-
-
+#textarea {
+    max-width: 45%;
+    float: left;
+    opacity: 0;
+}
 
 #slideshow {
-    max-width: 50%;
+    max-width: 35%;
     opacity: 0;
     position: relative;
-    margin: auto;
+    margin-left: 10%;
+    margin-right: 5%;
+    float: left;
 }
 
 #main-header {
     opacity: 0;
     background-color: var(--foreground);
-    margin: 5px 0px;
+    margin: 0px 0px 50px 0px;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -153,15 +159,13 @@ span {
     float: left;
 }
 
-#welcome-blurb {
+.welcome-blurb {
     font-size: 1.5vw;
     text-align: center;
     margin: 5px 0px;
-    max-width: 40%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    opacity: 0;
 }
 
 #established {
@@ -172,7 +176,6 @@ span {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    opacity: 0;
     font-family: 'Dear Disya', sans-serif;
 }
 

@@ -56,10 +56,11 @@ window.onload = function()
     fadeIn(document.getElementById("main-header"), function()
     {
         showSlides(slideIndex);
-        fadeIn(document.getElementById("established"));
         fadeIn(document.getElementById("slideshow"), function()
         {
-            fadeIn(document.getElementById("welcome-blurb"));
+            fadeIn(document.getElementById("textarea"));
         });
     });
+
+    setInterval(() => plusSlides(1), 5000);
 };
